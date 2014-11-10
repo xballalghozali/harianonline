@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	width: auto;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+	background:#4585F3;
+}
+.container {
+	margin: auto;
+	width: 1300px;
+	}
+	
+	.head {
+	height: 100px;
+	background: #FFF;
+	width:auto;
+	
+	}
+	
+	#logo {float:left}
+	
+	.navbar {
+	width: auto;
+	height: 50px;
+	background: #7521DF;
+	border-bottom: solid 3px #000;
+	border-top: solid 3px #000;
+	}
+	#menu {
+		line-height:50px;
+		float:left;
+		
+		}
+		#menu li {
+			list-style-type:none;
+			display:inline;
+			}
+			#menu a {
+				text-decoration:none;
+				font-size:18px;
+				font-family:"Times New Roman", cursive;
+				color:#FFF;
+				margin:5px;
+				padding:6px;
+				}
+			
+			#menu a:hover{
+				color:#F63;
+				text-decoration:none;
+				}
+	
+		.post_area {
+			width:1000px;
+			height:1500px;
+			background:#FFF;
+			float:left;
+		}
+		
+		
+		.sidebar {
+			width:300px;
+			height:1500px;
+			background:#F99;
+			float:right;
+		}
+		
+		.footer {
+			width:1300px;
+			height:200px;
+			background:#AAA56F;
+			float:right;
+			clear:both;
+		}
+		
+		#form {float:right; line-height:50px; padding-right:5px;}
+		#footer {
+		background:#38393A;
+		color:#A5A5A5;
+		padding:25px 0px;
+		text-align:center;
+		}#footer a {
+		color:#cecece;
+		text-decoration:none;
+		}#footer ul {
+		padding:0px;
+		margin:0px;
+		}#footer ul li {
+		display:inline;
+		padding:0px 9px;
+		}
+.post-image {
+	float: left;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
+}
+
+.post-title {
+	padding-left: 7px;
+}
